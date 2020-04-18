@@ -8,4 +8,4 @@ You will find, in this repository, some Netgear WNDR3700v2 OpenWrt packages (ipk
 ## mentohust/锐捷认证（802.1x）客户端
 源码见Google Project Hosting：https://code.google.com/archive/p/mentohust/
 
-编译使用了KyleRicardo/[MentoHUST-OpenWrt-ipk](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk)修改后的源码。
+编译使用了[KyleRicardo/MentoHUST-OpenWrt-ipk](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk)修改后的源码。
