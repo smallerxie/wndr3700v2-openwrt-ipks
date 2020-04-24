@@ -10,4 +10,6 @@ You will find, in this repository, some Netgear WNDR3700v2 OpenWrt packages (ipk
 ## mentohust/锐捷认证（802.1x）客户端
 源码见Google Project Hosting：https://code.google.com/archive/p/mentohust/
 
-编译使用了[KyleRicardo/MentoHUST-OpenWrt-ipk](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk)修改后的源码。
+mentohust编译使用了[KyleRicardo/MentoHUST-OpenWrt-ipk](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk)修改后的源码，同时提供依赖库libpcap.ipk
+
+luci-app-mentohust使用 [BoringCat/luci-app-mentohust](https://github.com/BoringCat/luci-app-mentohust)，需要opkg安装luci-compat后才能正常使用，似乎有一个bug，会使浏览器访问luci GUI特别缓慢，反正我是卸载了还是用ssh命令了也不麻烦。
